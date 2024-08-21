@@ -1,0 +1,12 @@
+{
+    "builds": [
+      {
+        "src": "index.ts",
+        "use": "@vercel/node"
+      }
+    ],
+    "installCommand": "bun install",
+    "buildCommand": "bun build",
+    "outputDirectory": "dist",
+    "framework": null
+  }
