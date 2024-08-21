@@ -16,6 +16,7 @@ export const ShowList = () => {
             {data.map((list) => (
                 <ol>
                     <ListItem
+                        key={list.id}
                         id={list.id}
                         title={list.title}
                     />

@@ -57,6 +57,7 @@ export const ShowCard = ({ id }: ShowCardProps) => {
                 {data?.map((card: Card) => (
                     <li className="">
                         <CardItem
+                            key={card.id}
                             id={card.id}
                             listId={card.listId ?? ""}
                             title={card.title}
